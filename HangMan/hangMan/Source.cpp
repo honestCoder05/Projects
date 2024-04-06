@@ -93,7 +93,7 @@ public:
 			PrintMessage("", 0, 0);
 	}
 
-	void RandomWord(std::string path = "D:\\Study\\QD\\words.txt")
+	void RandomWord(std::string path = "words.txt")
 	{
 		srand(time(0)); // set seed
 		std::vector <std::string>v;
